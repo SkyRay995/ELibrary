@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h2><u>Login Form</u></h2>
+  <form class="LoginForm">
+    <mat-form-field class = "example-full-width" appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="Enter username" name="username" [(ngModel)]="username">
+    </mat-form-field>
+    <mat-form-field class = "example-full-width" appearance="fill">
+      <mat-label> Password </mat-label>
+      <input matInput placeholder="Enter password" name = "password" type="password" [(ngModel)]="password">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="submit()">Submit</button>
+    <span *ngIf="show">
+      <button mat-button color="accent">Login success</button>
+    </span>
+    <!-- <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit"> -->
+  </form>
+</body>
+</html>
