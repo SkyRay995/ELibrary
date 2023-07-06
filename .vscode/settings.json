@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "UserLoginDatabase(SQLServerDB)/UserLoginDatabase(SQLServerDB).sqlproj"
+    ]
+}

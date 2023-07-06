@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../auth.service';
+import {Router} from '@angular/router';
 
 
 @Component({
@@ -8,6 +9,11 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  constructor(private router: Router){}
+  redirectToRegistration(){
+    this.router.navigate(['/registration'])
+  }
+  hide = true;
   username: string="";
   password: string="";
   show: boolean= false;

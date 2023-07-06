@@ -1,0 +1,10 @@
+c:\Users\Summersong\ELibrary\UserLoginDatabase\bin\Debug\UserLoginDatabase.dacpac
+c:\Users\Summersong\ELibrary\UserLoginDatabase\bin\Debug\UserLoginDatabase.dll
+c:\Users\Summersong\ELibrary\UserLoginDatabase\bin\Debug\UserLoginDatabase.pdb
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\UserLoginDatabase.sqlproj.AssemblyReference.cache
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\Model.xml
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\refactor.xml
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\postdeploy.sql
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\predeploy.sql
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\UserLoginDatabase.dll
+c:\Users\Summersong\ELibrary\UserLoginDatabase\obj\Debug\UserLoginDatabase.pdb

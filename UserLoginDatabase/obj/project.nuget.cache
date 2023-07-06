@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sxv4Lrhn2UqbNgq4HkE7cDIWg4H3seh9WlCBqv1gC1sd8BP32wdgqk+J4Of9cJ/DQFgh7c/btEfitJ+QgwAjPA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Summersong\\ELibrary\\UserLoginDatabase\\UserLoginDatabase.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Summersong\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Summersong\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

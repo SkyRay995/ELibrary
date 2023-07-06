@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login Form</title>
+  <title>Login</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h2><u>Login Form</u></h2>
+  <h2><u>Login</u></h2>
   <form class="LoginForm">
     <mat-form-field class = "example-full-width" appearance="fill">
       <mat-label>Username</mat-label>
@@ -15,8 +15,14 @@
     <mat-form-field class = "example-full-width" appearance="fill">
       <mat-label> Password </mat-label>
       <input matInput placeholder="Enter password" name = "password" type="password" [(ngModel)]="password">
+      <mat-hint>At least 8 characters</mat-hint>
+      <!--<input matInput [type] = "hide ? 'password' : 'text'">
+      <button mat-icon-button matSuffix (click) = "hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button> -->
     </mat-form-field>
     <button mat-raised-button color="primary" (click)="submit()">Submit</button>
+    <button mat-raised-button color="primary" (click)="redirectToRegistration()">Register</button>
     <span *ngIf="show">
       <button mat-button color="accent">Login success</button>
     </span>
